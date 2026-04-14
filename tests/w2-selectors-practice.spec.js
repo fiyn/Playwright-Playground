@@ -21,7 +21,7 @@ test.describe('W2: Learning Different Selectors', () => {
     await expect(inventoryItems).toHaveCount(6);
   });
 
-  test('Data Attribute Selector (BEST PRACTICE)', async ({ page }) => {
+  test('Data Attribute Selector', async ({ page }) => {
     // Using data-test attribute (most stable)
     const addToCartButton = page.locator('[data-test="add-to-cart-sauce-labs-backpack"]');
     await addToCartButton.click();
