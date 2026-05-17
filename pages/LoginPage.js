@@ -21,7 +21,7 @@ class LoginPage extends BasePage {
     }
 
     async getErrorMessage() {
-        return await this.errorMessage.texContent();
+        return await this.errorMessage.textContent();
     }
 
     async clearLoginForm() {

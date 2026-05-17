@@ -13,9 +13,9 @@ class TestDataHelper {
         return users.validUsers[userType];
     }
 
-    static getInvalidUser() {
+    static getInvalidUsers() {
         const users = this.loadJsonData('users.json');
-        return users.getInvalidUser;
+        return users.invalidUsers;
     }
 
     static getLockedUser() {
@@ -38,3 +38,5 @@ class TestDataHelper {
         return products.find(p => p.name === name);
     }
 }
+
+export default TestDataHelper;
