@@ -55,5 +55,5 @@ Follow these steps to clone and execute the automation suite locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-   cd YOUR_REPO_NAME
+   git clone https://github.com/fiyn/Playwright-Playground.git
+   cd Playwright-Playground
